@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todoist_api"
+version = "0.0.1"
+dependencies = [
+    "todoist-api-python"
+]
+authors = [ {name = "Joseph Cocozza", email = "jcocozza47@gmail.com"} ]
+description="A package to interact with Todoist"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+    ]
